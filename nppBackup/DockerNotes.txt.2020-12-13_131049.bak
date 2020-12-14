@@ -1,0 +1,17 @@
+DOCKER NOTES
+
+Docker is a tool for running applications in an isolated environment.
+
+
+Problem:  A system uses multiple components (web server, database, UI) each using different technologies (Node, Dot Net for server, SQL Server or Oracle for database, etc.).  How to design the system so the various technologies fit together?
+
+Docker Containers
+
+Every OS consists of:
+- OS kernel
+- Software that runs on the kernel.
+
+The main purpose of Docker is to package containers that can run on in any OS context.
+
+Containers vs Virtual Machines
+- Docker containers are lightweight compared to virtual machines.

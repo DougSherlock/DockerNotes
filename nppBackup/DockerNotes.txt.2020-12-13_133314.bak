@@ -1,0 +1,32 @@
+DOCKER NOTES
+
+Docker is a tool for running applications in an isolated environment.
+
+Similar to a virtual machine, but with less overhead.   Can start in seconds and uses less resources.
+
+App always runs in the same environment.
+
+Can sandbox multiple projects.
+
+DOCKERFILE
+- Builds an image.
+- First line starts with FROM to specify the source of the image.
+
+An IMAGE represents a OS, software, and application.
+
+DOCKER COMPOSE
+- Lets us define all our services in a CONFIGURATION FILE.
+- With one command, will spin up all the containers we need.
+
+Problem:  A system uses multiple components (web server, database, UI) each using different technologies (Node, Dot Net for server, SQL Server or Oracle for database, etc.).  How to design the system so the various technologies fit together?
+
+Docker Containers
+
+Every OS consists of:
+- OS kernel
+- Software that runs on the kernel.
+
+The main purpose of Docker is to package containers that can run on in any OS context.
+
+Containers vs Virtual Machines
+- Docker containers are lightweight compared to virtual machines.
